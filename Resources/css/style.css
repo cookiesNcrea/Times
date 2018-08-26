@@ -1,0 +1,44 @@
+/* Header & Navigation Bar */
+
+header{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img{
+  margin-right: 12px;
+}
+
+.logo span{
+  color: MediumAquamarine;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+header nav{
+  padding-right: 40px;
+}
+
+span a{
+  color: black;
+}
