@@ -48,7 +48,15 @@ span a{
 
 .column{
   display: flex;
-  padding-top: 160px;
+  padding-top: 140px;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+}
+
+.column p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 /* Large Column */
@@ -57,20 +65,20 @@ span a{
   display: flex;
   flex-direction: column;
   width: 630px;
-  border: 3px solid black;
   margin-right: 40px;
 }
 
-.orca{
-  border: 1px solid black;
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.burger{
-  border: 1px solid black;
-}
 /* Main Story */
 
-.main-story span{
+.large .main-story{
+  background-image: url(../../Resources/images/img-story-main.png);
+  height:300px;
   font-size: 40px;
   text-align: left;
   color: white;
@@ -78,9 +86,14 @@ span a{
   font-family: georgia;
 }
 
-.large .main-story{
-  background-image: url(../../Resources/images/img-story-main.png);
-  height:300px;
+/* Text Stories */
+
+.orca{
+  width: 45%;
+}
+
+.burger{
+  width: 45%;
 }
 
 /* Fall Story */
@@ -88,16 +101,13 @@ span a{
 .large .earth-spin{
   background-image: url(../../Resources/images/img-fall.png);
   height: 300px;
+  width: 45%;
   margin-top: 15px;
   text-align: center;
   font-family: georgia;
   font-size: 30px;
   color: white;
   font-weight: bold;
-}
-
-.earth-spin span{
-
 }
 
 /* Camera Story */
@@ -105,6 +115,7 @@ span a{
 .large .camera{
   background-image: url(../../Resources/images/img-camera.png);
   height: 300px;
+  width: 45%;
   margin-top: 15px;
   text-align: center;
   font-family: georgia;
@@ -113,39 +124,88 @@ span a{
   font-weight: bold;
 }
 
-.camera span{
-
-
-}
 /* Medium Column */
 
 .column .medium{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   width: 300px;
-  border: 2px solid black;
   margin-right: 40px;
 }
 
-.medium h2{
-  border: 1px solid black;
+/* Medium Stories*/
+
+.medium .fbi{
 }
 
-.medium span{
-  border: 1px solid black;
+.medium .cats{
+  background-image: url(../../Resources/images/im-cat.png);
+  height: 300px;
+  margin-top: 15px;
+  text-align: center;
+  font-family: georgia;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+
+}
+
+.medium .brooklyn{
+
 }
 
 /* Small Column */
 
 .column .small{
-  display: flex;
-  flex-direction: column;
   width: 240px;
   margin-right: 40px;
-  border: 1px solid black;
+
 }
 
-.small h3{
+.small .cookie{
+}
 
+.small .bites{
+}
+
+.bites h3{
+  text-align: center;
+}
+
+.bites span{
+  display: block;
+  padding: 11px 20px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+/* FOOTER */
+
+.feets{
+  display: flex;
+  width: 100%;
+  height: 325px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.top-flow{
+  display: block;
+}
+
+.feets h3{
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.feets nav{
+  display: inline-block;
 }
