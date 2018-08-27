@@ -13,6 +13,7 @@ header{
   font-weight: bold;
   border-bottom: 1px solid black;
   background-color: white;
+  top: 0; /*This brought the header to the top of the page so I couldn't see the website scroll behind it */
 }
 
 .logo{
@@ -41,4 +42,75 @@ header nav{
 
 span a{
   color: black;
+}
+
+/* Main Body */
+
+.column{
+  display: flex;
+  padding-top: 160px;
+}
+
+/* Large Column */
+
+.column .large{
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  border: 3px solid black;
+  margin-right: 40px;
+}
+
+.large h2 {
+  border:  1px solid black;
+}
+
+/* Main Story */
+
+.main-story span{
+  font-size: 40px;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  font-style: Georgia;
+}
+
+.large .main-story{
+  background-image: url(../../Resources/images/img-story-main.png);
+  height:300px;
+}
+
+/* Fall Story */
+
+/* Medium Column */
+
+.column .medium{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+  border: 2px solid black;
+  margin-right: 40px;
+}
+
+.medium h2{
+  border: 1px solid black;
+}
+
+.medium span{
+  border: 1px solid black;
+}
+
+/* Small Column */
+
+.column .small{
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  margin-right: 40px;
+  border: 1px solid black;
+}
+
+.small h3{
+
 }
