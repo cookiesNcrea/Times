@@ -72,7 +72,7 @@ span a{
   text-align: left;
   color: white;
   font-weight: bold;
-  font-style: Georgia;
+  font-family: georgia;
 }
 
 .large .main-story{
@@ -81,6 +81,20 @@ span a{
 }
 
 /* Fall Story */
+
+.large .earth-spin{
+  background-image: url(../../Resources/images/img-fall.png);
+  height: 300px;
+  margin-top: 15px;
+  text-align: center;
+  font-family: georgia;
+}
+
+.earth-spin span{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
 
 /* Medium Column */
 
