@@ -61,10 +61,13 @@ span a{
   margin-right: 40px;
 }
 
-.large h2 {
-  border:  1px solid black;
+.orca{
+  border: 1px solid black;
 }
 
+.burger{
+  border: 1px solid black;
+}
 /* Main Story */
 
 .main-story span{
@@ -88,14 +91,32 @@ span a{
   margin-top: 15px;
   text-align: center;
   font-family: georgia;
-}
-
-.earth-spin span{
   font-size: 30px;
   color: white;
   font-weight: bold;
 }
 
+.earth-spin span{
+
+}
+
+/* Camera Story */
+
+.large .camera{
+  background-image: url(../../Resources/images/img-camera.png);
+  height: 300px;
+  margin-top: 15px;
+  text-align: center;
+  font-family: georgia;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.camera span{
+
+
+}
 /* Medium Column */
 
 .column .medium{
